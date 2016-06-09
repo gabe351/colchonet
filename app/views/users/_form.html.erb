@@ -2,7 +2,7 @@
   <div id="error_explanation">
     <h2>Infelizmente não foi possivel continuar a resenha por conta dos seguintes erros:</h2>
     <ul>
-      <% @user.erros.full_messages.each do |message| %>
+      <% @user.errors.full_messages.each do |message| %>
       <li><%= "message" %></li>
       <% end %>
     </ul>
